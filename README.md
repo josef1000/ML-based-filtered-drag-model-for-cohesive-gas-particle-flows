@@ -8,17 +8,6 @@ by $H_d  =  $
 
 The NN's differ in their input:
 
-(i) for four marker networks: $f_{DNN} (1 / \Delta^*_f,$  $\tilde{u}_{sl,z} / u_t) $
+(i) for four marker networks: $f_{DNN} (1 / \Delta^*_f,\tilde{u})$
 
-$,)$ 
 
-$ \ \overline{\phi}_s / \phi_{s,max}, $
-
-$  \nabla_z\ \overline{p}^*)$
-
-\begin{equation}
-  f(x)=\begin{cases}
-    1, & \text{if $x<0$}.\\
-    0, & \text{otherwise}.
-  \end{cases}
-\end{equation}
