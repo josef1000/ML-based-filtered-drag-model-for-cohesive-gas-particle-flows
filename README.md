@@ -4,7 +4,7 @@ In this repository all developed and used neural networks in publication ..... a
 
 All NN's have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$ is then calculated
 
-by $H_d / = / $
+by $H_d  =  $
 
 The NN's differ in their input:
 
