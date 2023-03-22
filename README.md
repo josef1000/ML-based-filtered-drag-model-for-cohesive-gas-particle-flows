@@ -2,4 +2,4 @@
 
 In this repository all developed and used neural networks in publication ..... are stored.
 
-All NN's have the sub-grid drift velocity as output. The drag correction function $H_d$
+All NN's have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$
