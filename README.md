@@ -4,7 +4,7 @@ In this repository all developed and used neural networks in publication ..... a
 
 As stated in the publication anisotropic drag correction is preferred over isotropic, this means that drag correction is calculated in gravitational (typically noted as $z$) and lateral (noted as $x$ or $y$) separately.
 
-All NN's have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$ is then calculated by
+All networks have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$ is then calculated by
 
 $$
 H_d = 1 +
@@ -14,15 +14,8 @@ H_d = 1 +
 \end{cases}
 $$
 
+The input of the networks is, e.g. in gravitational direction:
 
-The NN's differ in their input:
+$f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*)$ 
 
-(i) for four marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*)$ 
-
-(ii) for five marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*, \ Bo)$ 
-
-(iii) for six marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*, \ \dot{\gamma}_s)$ 
-
-or $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*, \ \dot{\gamma}\_{sl})$ 
-
-or $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*, \ |\tilde{u}\_{sl,xy}|)$ 
+Models developed from 2D as well as from 3D simulations are available.
