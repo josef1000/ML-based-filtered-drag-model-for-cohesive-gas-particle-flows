@@ -8,4 +8,4 @@ by $H_d / = / $
 
 The NN's differ in their input:
 
-(i) four marker networks have the following input: $f_{DNN}(1/\Delta^*_f, \ \overline{\phi}_s /\phi_{s,max}, \ \tilde{u}_{sl,z}/u_t, \nabla_z\ \overline{p}^*)$
+(i) four marker networks have the following input: $f_{DNN} (1/\Delta^*_f,)$ 
