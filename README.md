@@ -19,3 +19,5 @@ The input of the networks is, e.g. in gravitational direction:
 $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}^\*)$ 
 
 Models developed from 2D as well as from 3D simulations are available. The input data is min-max normalized between -1 and +1, the according values can be found in the text-files in the respective repository.
+
+The script usageDemo.py shows how to load and compile the saved model, normalize the input and get the prediction based on sample data.
