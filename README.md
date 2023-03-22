@@ -10,7 +10,12 @@ by $H_d  =  $
 
 The NN's differ in their input:
 
-(i) for four marker networks: $f_{DNN} (1 / \Delta^*_f, \overline{\phi}_s / \phi\_{s,max}, \tilde{u}\_{sl,z}/u_t,$ $\overline{p}^* )$
+(i) for four marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p})$ 
 
+(ii) for five marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}, \ Bo)$ 
 
-$1 / \Delta^*_f$ , $\overline{\phi}_s / \phi\_{s,max}$ , $\tilde{u}\_{sl,z}/u_t$ , $\nabla_z$  $\overline{p}^*$
+(iii) for six marker networks: $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}, \ \dot{\gamma}_s)$ 
+
+or $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}, \ \dot{\gamma}\_{sl})$ 
+
+or $f_{DNN} (1 / \Delta^*_f, \ \overline{\phi}_s / \phi\_{s,max}, \ \tilde{u}\_{sl,z}/u_t, \ \nabla_z \ \overline{p}, \ |\tilde{u}\_{sl,xy}|)$ 
