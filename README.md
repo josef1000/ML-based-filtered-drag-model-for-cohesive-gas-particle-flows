@@ -2,4 +2,10 @@
 
 In this repository all developed and used neural networks in publication ..... are stored.
 
-All NN's have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$
+All NN's have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$ is then calculated
+
+by $H_d / = / $
+
+The NN's differ in their input:
+
+(i) four marker networks have the following input: $f_{DNN}(1/\Delta^*_f, \ \overline{\phi}_s /\phi_{s,max}, \ \tilde{u}_{sl,z}/u_t, \nabla_z\ \overline{p}^*)$
