@@ -4,7 +4,7 @@ In this repository all developed and used neural networks in publication ..... a
 
 As stated in the publication anisotropic drag correction is preferred over isotropic, this means that drag correction is calculated in gravitational (typically noted as $z$) and lateral (noted as $x$ or $y$) direction separately.
 
-All networks have the sub-grid drift velocity $\tilde{v}_d$ as output. The drag correction function $H_d$ is then calculated by
+All networks have the scaled sub-grid drift velocity $(\phi\_{s,max} \ \tilde{v}_d / (u_t \ \phi\_{s,max}))$ as output. The drag correction function $H_d$ is then calculated by
 
 $$
 H_d = 1 +
